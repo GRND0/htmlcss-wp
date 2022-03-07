@@ -19,10 +19,13 @@ body {
     max-width: 800px ;
 }
 
+html {
+    font-family: "Montserrat" ,sans-serif ;
+}
+
 /*REGOLE SEZIONI*/
 
 header {
-    /* background-color: #e579e6 ; */
     height: 100px ;
     margin: 15px 0 15px 0 ;
 }
@@ -44,6 +47,7 @@ header {
 
 .sezioni li {
     display: inline ;
+    font-size: smaller ;
     text-transform: uppercase ;
     padding: 0 5px ;
     color: grey ;
@@ -52,7 +56,7 @@ header {
 
 .banner {
     position: relative ;
-    background-color: #e1d67a ;
+    background-color: white ;
     margin: 0 0 15px 0 ;
     height: 350px ;
     overflow: hidden ;
@@ -84,35 +88,44 @@ header {
 
 
 #contenitore2 {
-    background-color: #0186ff ;
+    background-color: white ;
     margin: 0 0 10px 0 ;
 }
 
 
 .elementi {
-    background-color: #abcfe7 ;
+    background-color: white ;
     margin-bottom: 10px ;
 }
 
 .elementi p {
     color: gray ;
+    font-size: x-small ;
 }
+
 
 
 #top {
     height: 60px ;
 }
 
+.testo {
+    width: 100% ;
+    
+}
 
 .imgsx {
     width: 100% ;
     position: relative ;
     border-radius: 1em ;
     overflow: hidden ;
+    height: 120px ;
 }
 
 #immaginesx {
     width: 100% ;
+    height: 100% ;
+    object-fit: cover ;
 }
 
 .imgcentro {
@@ -120,15 +133,19 @@ header {
     position: relative ;
     border-radius: 1em ;
     overflow: hidden ;
+    height: 120px ;
 }
 
 #immaginecentro {
     width: 100% ;
-    height: 40% ;
+    height: 100% ;
     object-fit: cover ;
+
+    
 }
 
 .imgdx {
+    height: 120px ;
     width: 100% ;
     position: relative ;
     border-radius: 1em ;
@@ -136,17 +153,17 @@ header {
 }
 
 #immaginedx {
+    height: 100% ;
     width: 100% ;
-    height: 40% ;
     object-fit: cover ;
+
+ 
 }
 
 
 
 
 #sx, #centro, #dx {
-
-    height: 300px ;
     float: left ;
 }
 
@@ -164,6 +181,12 @@ header {
 
 
 #footer {
-    background-color: #8801fe ;
+    background-color: white ;
     height: 40px ;
+    text-align: center ;
+}
+
+#cuore {
+    color: red ;
+    display: inline-block ;
 }
